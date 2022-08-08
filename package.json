@@ -1,0 +1,18 @@
+{
+  "name": "fdm-docs",
+  "version": "1.0.0",
+  "description": "FDM Monster module documentation",
+  "main": "index.js",
+  "author": "David Zwart",
+  "license": "LGPL-3.0",
+  "private": false,
+    "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  }
+}
