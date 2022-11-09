@@ -1,0 +1,26 @@
+/.github
+/.idea
+.git
+.env
+.gitignore
+*.env
+*docker-compose.yml
+*Dockerfile
+*.md
+*.txt
+/.build
+/.cache
+/**/node_modules
+
+# Runtime and non-production folders
+/**/fdm-monster
+/client-npm
+/client-vue
+/coverage
+/docs
+/**/file-storage
+/**/images
+/**/logs
+/server-nest
+/**/test
+/**/views

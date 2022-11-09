@@ -1,0 +1,14 @@
+{
+  "extends": ["config:base"],
+  "assignees": ["davidzwa"],
+  "labels": ["renovate"],
+  "lockFileMaintenance": {"enabled": true, "extends": ["schedule:daily"]},
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest", "lockFileMaintenance"],
+      "enabled": true,
+      "automerge": true
+    },
+  ],
+  "ignorePaths": []
+}
